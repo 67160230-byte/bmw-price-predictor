@@ -1,0 +1,33 @@
+{
+  "selected_model": "RandomForest",
+  "problem_type": "Regression",
+  "target": "price_usd",
+  "train_test_split": "80% train / 20% test",
+  "metrics": {
+    "LinearRegression": {
+      "rmse": 7132.73,
+      "mae": 4838.42,
+      "r2": 0.946
+    },
+    "Ridge": {
+      "rmse": 7135.35,
+      "mae": 4838.31,
+      "r2": 0.946
+    },
+    "Lasso": {
+      "rmse": 7132.73,
+      "mae": 4838.42,
+      "r2": 0.946
+    },
+    "RandomForest": {
+      "rmse": 5104.51,
+      "mae": 3732.16,
+      "r2": 0.972
+    },
+    "GradientBoosting": {
+      "rmse": 5142.38,
+      "mae": 3711.7,
+      "r2": 0.972
+    }
+  }
+}
